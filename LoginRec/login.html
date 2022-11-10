@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- Entrega desenvolvida na Recuperação dia 09/11/2022
+
+     Encontro Remoto 2
+     Encontro Remoto 3
+     Encontro Remoto 4
+     Encontro Remoto 5
+     Atividade Online 3 
+-->
+
+<!-- ANOTAÇÕES
+
+    https://desenvolvimentoparaweb.com/css/bem/
+    
+    mudança no JS, reffer...(pesquisar mais sobre o script ir na head ou depois do body)
+
+-->
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Fernando Fujisawa">
+    <link rel="icon" href="img/controller.png" type="image/png" size="1em">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GGstore-REC</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <main>
+        <form onsubmit="exibirDados(event)">
+            
+            <div class="campo-label">
+                <label for="campo-email">Email</label>
+                <input type="email" id="campo-email">
+            </div>
+
+            <div class="campo-label">
+                <label for="campo-senha">Senha</label>
+                <input type="password" id="campo-senha">
+            </div>
+
+            <input id="botao-enviar" type="submit" value="Fazer login">
+        </form>
+    </main>
+
+</body>
+</html>
